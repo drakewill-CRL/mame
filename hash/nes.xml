@@ -81298,6 +81298,23 @@ be better to redump them properly. -->
 		</part>
 	</software>
 
+	<software name="bbanshee">
+		<description>Billionaire Banshee</description>
+		<year>2018</year>
+		<publisher>Mega Cat Studios</publisher>
+		<info name="release" value="2018xxxx"/>
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="sxrom"/>
+			<dataarea name="prg" size="262144">
+				<rom name="billionaire banshee (usa) (aftermarket) (unl).prg" size="262144" crc="38a50f4c" sha1="e4e58ae63035045b92ebc3d25ef334b6adf1e842"/>
+			</dataarea>
+			<dataarea name="vram" size="8192"/>
+			<dataarea name="bwram" size="8192">
+				<rom value="0x00" size="8192" offset="0" loadflag="fill" />
+			</dataarea>
+		</part>
+	</software>
+
 	<software name="blakbxrb">
 		<description>Black Box Challenge (Rob Bryant)</description>
 		<year>2017</year>
