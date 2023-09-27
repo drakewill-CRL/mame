@@ -81263,6 +81263,22 @@ be better to redump them properly. -->
 		</part>
 	</software>
 
+	<software name="chunkout2">
+		<description>Chunkout 2</description>
+		<year>2008</year>
+		<publisher>&lt;unknown&gt;</publisher>
+		<info name="release" value="2008xxxx"/>
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="nrom"/>
+			<dataarea name="prg" size="32768">
+				<rom name="0.prg" size="32768" crc="3885b6d2" sha1="3c589cfb7b95ff55267a0863784e937eb607973d"/>
+			</dataarea>
+			<dataarea name="chr" size="8192">
+				<rom name="0.chr" size="8192" crc="4aef9b23" sha1="87b4b000bd719cd12d772089b0cf7f0fd4f86d6b"/>
+			</dataarea>
+		</part>
+	</software>
+
 	<software name="creepyb">
 		<description>Creepy Brawlers</description>
 		<year>2017</year>
