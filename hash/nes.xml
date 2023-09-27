@@ -81867,6 +81867,22 @@ be better to redump them properly. -->
 		</part>
 	</software>
 
+	<software name="studyha">
+		<description>Study Hall</description>
+		<year>2014</year>
+		<publisher>Khan Games</publisher>
+		<info name="release" value="2014xxxx"/>
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="uxrom"/>
+			<feature name="mirroring" value="horizontal"/>
+			<dataarea name="prg" size="131072">
+				<rom name="study hall (usa) (aftermarket) (unl).prg" size="131072" crc="1a496d3f" sha1="e0dad013b44666b7dbecb0f59750b81013f6fcfc"/>
+			</dataarea>
+			<dataarea name="vram" size="8192">
+			</dataarea>
+		</part>
+	</software>
+
 	<!-- Glitchy music continues to play during game. Should only have movement sfx? -->
 	<software name="sudoku07" supported="partial">
 		<description>Sudoku 2007</description>
