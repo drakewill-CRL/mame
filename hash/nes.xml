@@ -81417,6 +81417,23 @@ be better to redump them properly. -->
 		</part>
 	</software>
 
+	<software name="galf">
+		<description>Galf</description>
+		<year>2018</year>
+		<publisher>Limited Run Games</publisher>
+		<info name="release" value="20180928"/>
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="cnrom"/>
+			<feature name="mirroring" value="vertical"/>
+			<dataarea name="prg" size="131072">
+				<rom name="0.prg" size="131072" crc="46fd3057" sha1="061c5360aa563e836cca8fae3f82b1c4ffed89e8"/>
+			</dataarea>
+			<dataarea name="chr" size="131072">
+				<rom name="0.chr" size="131072" crc="362cdfe0" sha1="c89e342c68d3868d13b9cf90e1d7a18137fa2c97"/>
+			</dataarea>
+		</part>
+	</software>
+
 	<software name="getgary">
 		<description>Get'em Gary</description>
 		<year>2016</year>
