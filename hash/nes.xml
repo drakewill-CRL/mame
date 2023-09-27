@@ -81141,6 +81141,23 @@ be better to redump them properly. -->
 		</part>
 	</software>
 
+	<software name="armedfo" supported="partial">
+		<description>Armed for Battle (Limited Edition)</description>
+		<year>2014</year>
+		<publisher>1010 Howe</publisher>
+		<info name="release" value="20140701"/>
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="uxrom"/>
+			<feature name="pcb" value="NES-UNROM" />
+			<feature name="mirroring" value="vertical"/>
+			<dataarea name="prg" size="131072">
+				<rom name="armed for battle (world) (limited edition) (aftermarket) (unl).prg" size="131072" crc="f0e5b626" sha1="46069730585a4ef0abbf914866a447998fcf26df"/>
+			</dataarea>
+			<dataarea name="vram" size="8192">
+			</dataarea>
+		</part>
+	</software>
+
 	<software name="assimil">
 		<description>Assimilate</description>
 		<year>2012</year>
