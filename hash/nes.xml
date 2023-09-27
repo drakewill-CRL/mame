@@ -82037,6 +82037,20 @@ be better to redump them properly. -->
 		</part>
 	</software>
 
+	<software name="a53vol4">
+		<description>Action 53 Vol. 4 - Actually 54</description>
+		<year>2020</year>
+		<publisher>&lt;unknown&gt;</publisher>
+		<info name="release" value="20200806"/>
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="action53"/>
+			<feature name="mirroring" value="vertical"/>
+			<dataarea name="prg" size="2097152">
+				<rom name="action 53 vol. 4 - actually 54 (world) (aftermarket) (unl).prg" size="2097152" crc="da0c8e94" sha1="3a138c3b84728eb18fc06ef769d5fbb8ee781712"/>
+			</dataarea>
+			<dataarea name="vram" size="32768"/>
+		</part>
+	</software>
 
 <!-- Multicarts (these have to be better examined: some dumps are possibly incomplete, e.g. menu + 1 game: these incomplete dumps should be removed) -->
 
