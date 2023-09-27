@@ -81454,6 +81454,82 @@ be better to redump them properly. -->
 		</part>
 	</software>
 
+	<software name="kirakira" cloneof="kirastar">
+		<description>Kira Kira Star Night</description>
+		<year>2013</year>
+		<publisher>Riki</publisher>
+		<info name="release" value="2013xxxx"/>
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="txrom"/>
+			<dataarea name="prg" size="262144">
+				<rom name="0.prg" size="262144" crc="a20ce04a" sha1="2a4e8ed0417a59305d72f3d81d5dd14ec3ce8653"/>
+			</dataarea>
+			<dataarea name="chr" size="262144">
+				<rom name="0.chr" size="262144" crc="ef15d708" sha1="c83daa1bd88ac11ac8ab7db16765233ac9bad193"/>
+			</dataarea>
+			<dataarea name="bwram" size="8192">
+				<rom value="0x00" size="8192" offset="0" loadflag="fill" />
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="kiraac" cloneof="kirastar">
+		<description>Kira Kira Star Night AC</description>
+		<year>2017</year>
+		<publisher>Columbus Circle</publisher>
+		<info name="release" value="2017xxxx"/>
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="txrom"/>
+			<dataarea name="prg" size="262144">
+				<rom name="0.prg" size="262144" crc="8d6c336b" sha1="9a87bec6239b2037cf90f6dff5714e886746c55f"/>
+			</dataarea>
+			<dataarea name="chr" size="262144">
+				<rom name="0.chr" size="262144" crc="5467ef71" sha1="1036ee4fa3357e1399fa28c32a058f8a858b005d"/>
+			</dataarea>
+			<dataarea name="bwram" size="8192">
+				<rom value="0x00" size="8192" offset="0" loadflag="fill" />
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="kiradxte" cloneof="kirastar">
+		<description>Kira Kira Star Night DX the Gold (Tournament Edition)</description>
+		<year>2016</year>
+		<publisher>Columbus Circle</publisher>
+		<info name="release" value="20160815"/>
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="txrom"/>
+			<dataarea name="prg" size="262144">
+				<rom name="0.prg" size="262144" crc="c2eec35f" sha1="6fddd389624691a37bf7e43338cc449b39f66c4f"/>
+			</dataarea>
+			<dataarea name="chr" size="262144">
+				<rom name="0.chr" size="262144" crc="5b8ca560" sha1="de6d64554b10e0d9f539b64b34352b113309db78"/>
+			</dataarea>
+			<dataarea name="bwram" size="8192">
+				<rom value="0x00" size="8192" offset="0" loadflag="fill" />
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="kirafuru" cloneof="kirastar">
+		<description>Kira Kira Star Night - Furusato Nouzei Fujimino-ban</description>
+		<year>2018</year>
+		<publisher>Riki</publisher>
+		<info name="release" value="2018xxxx"/>
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="txrom"/>
+			<dataarea name="prg" size="262144">
+				<rom name="0.prg" size="262144" crc="305532dc" sha1="e3f76143f967723b8a062aa7f2cad2228b4274a4"/>
+			</dataarea>
+			<dataarea name="chr" size="262144">
+				<rom name="0.chr" size="262144" crc="6c672095" sha1="4f375d398c2243758cecf3d990f7abb192a12ef1"/>
+			</dataarea>
+			<dataarea name="bwram" size="8192">
+				<rom value="0x00" size="8192" offset="0" loadflag="fill" />
+			</dataarea>
+		</part>
+	</software>
+
 	<software name="larrylov" supported="partial"> <!-- Save/Continue not yet supported -->
 		<description>Larry and the Long Look for a Luscious Lover</description>
 		<year>2014</year>
