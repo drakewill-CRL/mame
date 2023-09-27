@@ -81835,6 +81835,21 @@ be better to redump them properly. -->
 		</part>
 	</software>
 
+	<software name="silistat">
+		<description>Silicon Statue</description>
+		<year>2014</year>
+		<publisher>&lt;unknown&gt;</publisher>
+		<info name="release" value="20140501"/>
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="uxrom"/>
+			<feature name="mirroring" value="vertical"/>
+			<dataarea name="prg" size="131072">
+				<rom name="silicon statue (usa) (aftermarket) (unl).prg" size="131072" crc="9596437d" sha1="15e92ee528b50528b13d32c3178418c1c0e63efb"/>
+			</dataarea>
+			<dataarea name="vram" size="8192"/>
+		</part>
+	</software>
+
 	<software name="solaris" supported="partial"> <!-- Save/Reset Data not implemented -->
 		<description>Solaris</description>
 		<year>2016</year>
@@ -81937,6 +81952,22 @@ be better to redump them properly. -->
 		</part>
 	</software>
 
+	<software name="teletime">
+		<description>Teletime</description>
+		<year>2010</year>
+		<publisher>&lt;unknown&gt;</publisher>
+		<info name="release" value="201001xx"/>
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="nrom"/>
+			<dataarea name="prg" size="32768">
+				<rom name="0.prg" size="32768" crc="1c49d432" sha1="823249b148b668a7c27e2794c8a156e5909a02bb"/>
+			</dataarea>
+			<dataarea name="chr" size="8192">
+				<rom name="0.chr" size="8192" crc="098bb584" sha1="be11d278a10edab998fef23429ed942da99eda8d"/>
+			</dataarea>
+		</part>
+	</software>
+
 	<software name="tictacxo">
 		<description>Tic-Tac XO</description>
 		<year>2008</year>
@@ -81969,6 +82000,21 @@ be better to redump them properly. -->
 			<dataarea name="chr" size="16384">
 				<rom name="ultimate frogger champion.chr" size="16384" crc="96a3389f" sha1="5662ac095f8d6fad77c79fd356ccea41baef9944" />
 			</dataarea>
+		</part>
+	</software>
+
+	<software name="eville">
+		<description>Welcome To Eville (USA) (Aftermarket) (Homebrew)</description>
+		<year>2017</year>
+		<publisher>&lt;unknown&gt;</publisher>
+		<info name="release" value="20170424"/>
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="uxrom"/>
+			<feature name="mirroring" value="vertical"/>
+			<dataarea name="prg" size="131072">
+				<rom name="welcome to eville (usa) (aftermarket) (homebrew).prg" size="131072" crc="121ca227" sha1="2276fd09d2955960f58ffe1324c0f92e646e778a"/>
+			</dataarea>
+			<dataarea name="vram" size="8192"/>
 		</part>
 	</software>
 
