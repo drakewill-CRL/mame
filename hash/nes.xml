@@ -81298,6 +81298,41 @@ be better to redump them properly. -->
 		</part>
 	</software>
 
+	<software name="blakbxrb">
+		<description>Black Box Challenge (Rob Bryant)</description>
+		<year>2017</year>
+		<publisher>Sly Dog Studios</publisher>
+		<info name="release" value="20170821"/>
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="unrom512"/>
+			<feature name="mirroring" value="vertical"/>
+			<dataarea name="prg" size="524288">
+				<rom name="black box challenge (world) (aftermarket) (homebrew).prg" size="524288" crc="bfb003c9" sha1="1adffec898e87c323867ad89772c4218cdc21d66"/>
+			</dataarea>
+			<dataarea name="vram" size="32768"/>
+			<dataarea name="bwram" size="8192">
+				<rom value="0x00" size="8192" offset="0" loadflag="fill" />
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="blakbxjw" cloneof="blakbxrb">
+		<description>Black Box Challenge (Jeffrey Wittenhagen)</description>
+		<year>2017</year>
+		<publisher>Sly Dog Studios</publisher>
+		<info name="release" value="20170821"/>
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="uxrom"/>
+			<dataarea name="prg" size="262144">
+				<rom name="black box challenge (world) (jeffrey wittenhagen's) (aftermarket) (homebrew) (alt).prg" size="262144" crc="356600c4" sha1="e2572c3e556219982f76a087e2f807d8d9f1e2f6"/>
+			</dataarea>
+			<dataarea name="vram" size="8192"/>
+			<dataarea name="bwram" size="8192">
+				<rom value="0x00" size="8192" offset="0" loadflag="fill" />
+			</dataarea>
+		</part>
+	</software>
+
 	<software name="candesto" supported="partial"> <!-- Restore/Options not yet supported -->
 		<description>Candelabra - Estoscerro</description>
 		<year>2020</year> <!-- cartridge release year -->
