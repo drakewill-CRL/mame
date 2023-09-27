@@ -81349,6 +81349,21 @@ be better to redump them properly. -->
 		</part>
 	</software>
 
+	<software name="chumlee">
+		<description>Chumlee's Adventure - The Quest for Pinky</description>
+		<year>2021</year>
+		<publisher>KHAN Games</publisher>
+		<info name="release" value="20210308"/>
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="uxrom"/>
+			<feature name="mirroring" value="vertical"/>
+			<dataarea name="prg" size="131072">
+				<rom name="chumlee's adventure - the quest for pinky (usa) (aftermarket) (unl).prg" size="131072" crc="3c882b42" sha1="f1552347c728a4c95ce33b8c724f44688fae5930"/>
+			</dataarea>
+			<dataarea name="vram" size="8192"/>
+		</part>
+	</software>
+
 	<software name="chunkout2">
 		<description>Chunkout 2</description>
 		<year>2008</year>
