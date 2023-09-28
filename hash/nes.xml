@@ -82181,6 +82181,20 @@ be better to redump them properly. -->
 		</part>
 	</software>
 
+	<software name="whatrem">
+		<description>What Remains (v1.0.2)</description>
+		<year>2018</year>
+		<publisher>&lt;unknown&gt;</publisher>
+		<info name="release" value="20180928"/>
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="sxrom"/>
+			<dataarea name="prg" size="524288">
+				<rom name="what remains (world) (v1.0.2) (aftermarket) (homebrew).prg" size="524288" crc="c19da17f" sha1="adac4b8203a5b74a713af11df38d86ff1d2346f0"/>
+			</dataarea>
+			<dataarea name="vram" size="8192"/>
+		</part>
+	</software>
+
 	<software name="awinner" supported="partial"> <!-- Controls other than play and next track don't work. -->
 		<description>A Winner is You</description>
 		<year>2016</year>
