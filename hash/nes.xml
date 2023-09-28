@@ -81350,6 +81350,21 @@ be better to redump them properly. -->
 		</part>
 	</software>
 
+	<software name="bobl">
+		<description>Bobl</description>
+		<year>2019</year>
+		<publisher>Morphcat Games</publisher>
+		<info name="release" value="2019xxxx"/>
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="uxrom"/>
+			<feature name="mirroring" value="vertical"/>
+			<dataarea name="prg" size="65536">
+				<rom name="bobl (world) (aftermarket) (homebrew).prg" size="65536" crc="e8c53885" sha1="390269afef7437ec3db282846fb6c50ccf9ebd40"/>
+			</dataarea>
+			<dataarea name="vram" size="8192"/>
+		</part>
+	</software>
+
 	<software name="candesto" supported="partial"> <!-- Restore/Options not yet supported -->
 		<description>Candelabra - Estoscerro</description>
 		<year>2020</year> <!-- cartridge release year -->
@@ -81449,7 +81464,7 @@ be better to redump them properly. -->
 				<rom name="0.chr" size="131072" crc="f44a6f24" sha1="8db48088aae7b93a8cccfffe07bb86ba23c14051"/>
 			</dataarea>
 		</part>
-	</software>
+	</software>	
 	
 	<software name="dushlan">
 		<description>Dúshlán</description>
@@ -81481,6 +81496,23 @@ be better to redump them properly. -->
 			</dataarea>
 			<!-- 8k VRAM on cartridge? -->
 			<dataarea name="vram" size="8192">
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="eyra">
+		<description>Eyra, The Crow Maiden</description>
+		<year>2020</year>
+		<publisher>&lt;unknown&gt;</publisher>
+		<info name="release" value="202009xx"/>
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="nrom"/>
+			<feature name="mirroring" value="vertical"/>
+			<dataarea name="prg" size="32768">
+				<rom name="0.prg" size="32768" crc="d614b310" sha1="0626a3099ddd79dc10d3be55ba06fd0a5c00b457"/>
+			</dataarea>
+			<dataarea name="chr" size="8192">
+				<rom name="0.chr" size="8192" crc="1d0e087b" sha1="fb79241391139064f5d61c3cda49befdbf3f9d7e"/>
 			</dataarea>
 		</part>
 	</software>
@@ -81596,6 +81628,72 @@ be better to redump them properly. -->
 			</dataarea>
 			<!-- 32k VRAM on cartridge -->
 			<dataarea name="vram" size="0x8000">
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="hbwc2012">
+		<description>Homebrew World Championships 2012</description>
+		<year>2012</year>
+		<publisher>&lt;unknown&gt;</publisher>
+		<info name="release" value="2012xxxx"/>
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="nes_event"/>
+			<dataarea name="prg" size="262144">
+				<rom name="homebrew world championships 2012 (usa) (aftermarket) (homebrew).prg" size="262144" crc="00ca6f07" sha1="3cbad7765324e935fd7c4e75ef8fb6a7ed0c8aae"/>
+			</dataarea>
+			<dataarea name="vram" size="8192"/>
+		</part>
+	</software>
+
+	<software name="jamminh">
+		<description>Jammin Honey</description>
+		<year>2017</year>
+		<publisher>&lt;unknown&gt;</publisher>
+		<info name="release" value="2017xxxx"/>
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="cnrom"/>
+			<dataarea name="prg" size="32768">
+				<rom name="0.prg" size="32768" crc="5b23f190" sha1="2c18f53e547d0ec04e8fae18e139bd8602e05dac"/>
+			</dataarea>
+			<dataarea name="chr" size="32768">
+				<rom name="0.chr" size="32768" crc="2a643bfb" sha1="1abb190c045f24916df8fbcae80e0ca1e4f4a0e9"/>
+			</dataarea>
+		</part>
+	</software>
+	
+	<software name="janeaus">
+		<description>Jane Austen's 8-bit Adventure</description>
+		<year>2022</year>
+		<publisher>&lt;unknown&gt;</publisher>
+		<info name="release" value="2022xxxx"/>
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="nrom"/>
+			<feature name="mirroring" value="vertical"/>
+			<dataarea name="prg" size="32768">
+				<rom name="0.prg" size="32768" crc="4278fcf5" sha1="69385d4764ad0771e07b6099b5dddca393130d98"/>
+			</dataarea>
+			<dataarea name="chr" size="8192">
+				<rom name="0.chr" size="8192" crc="1a0b6be8" sha1="d1e9d98fa159af895deb081126f1079edda041e0"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="jsbmall">
+		<description>Jay and Silent Bob - Mall Brawl</description>
+		<year>2020</year>
+		<publisher>&lt;unknown&gt;</publisher>
+		<info name="release" value="20200507"/>
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="sxrom"/>
+			<dataarea name="prg" size="262144">
+				<rom name="0.prg" size="262144" crc="2140e799" sha1="5c95862bc13b258a9d278b484d23f378253af417"/>
+			</dataarea>
+			<dataarea name="chr" size="131072">
+				<rom name="0.chr" size="131072" crc="735aeeb8" sha1="3c74f8bfc16bbba4075158930648723cc297583b"/>
+			</dataarea>
+			<dataarea name="bwram" size="8192">
+				<rom value="0x00" size="8192" offset="0" loadflag="fill" />
 			</dataarea>
 		</part>
 	</software>
@@ -81749,6 +81847,21 @@ be better to redump them properly. -->
 		</part>
 	</software>
 
+	<software name="lizard">
+		<description>Lizard</description>
+		<year>2018</year>
+		<publisher>&lt;unknown&gt;</publisher>
+		<info name="release" value="20180206"/>
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="bnrom"/>
+			<feature name="mirroring" value="vertical"/>
+			<dataarea name="prg" size="524288">
+				<rom name="lizard (world) (aftermarket) (unl).prg" size="524288" crc="68546b2f" sha1="5e94ae1065c65e4e1fdcab0b10b5553cad885b34"/>
+			</dataarea>
+			<dataarea name="vram" size="8192"/>
+		</part>
+	</software>
+
 	<software name="madwiz">
 		<description>The Mad Wizard - A Candelabra Chronicle</description>
 		<year>2014</year>
@@ -81783,6 +81896,38 @@ be better to redump them properly. -->
 		</part>
 	</software>
 
+	<software name="mcromage">
+		<description>Micro Mages</description>
+		<year>2019</year>
+		<publisher>Morphcat Games</publisher>
+		<info name="release" value="20190430"/>
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="nrom"/>
+			<dataarea name="prg" size="32768">
+				<rom name="0.prg" size="32768" crc="1f4aa740" sha1="c1f0e973815687e06086e57a615abc116aa37e61"/>
+			</dataarea>
+			<dataarea name="chr" size="8192">
+				<rom name="0.chr" size="8192" crc="24144d94" sha1="e08bec8c93dce07262be37c7cceb7019817bea69"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="mcromag2" cloneof="mcromage">
+		<description>Micro Mages - Second Quest</description>
+		<year>2022</year>
+		<publisher>Morphcat Games</publisher>
+		<info name="release" value="20220915"/>
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="nrom"/>
+			<dataarea name="prg" size="32768">
+				<rom name="0.prg" size="32768" crc="94cd391e" sha1="de626fd4556f8377c2c09928c7c89f333301cbe1"/>
+			</dataarea>
+			<dataarea name="chr" size="8192">
+				<rom name="0.chr" size="8192" crc="6f579478" sha1="73dea6d0bd2f8a9fb47e9d6329c9ebb8c9ace37b"/>
+			</dataarea>
+		</part>
+	</software>
+
 	<software name="multidude">
 		<description>Multidude</description>
 		<year>2019</year> <!-- original digital release 20150214 -->
@@ -81799,6 +81944,21 @@ be better to redump them properly. -->
 		</part>
 	</software>
 
+	<software name="mysticor">
+		<description>Mystic Origins</description>
+		<year>2017</year>
+		<publisher>The New 8bit Heroes</publisher>
+		<info name="release" value="20170314"/>
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="unrom512"/>
+			<feature name="mirroring" value="vertical"/>
+			<dataarea name="prg" size="524288">
+				<rom name="mystic origins (usa) (aftermarket) (unl).prg" size="524288" crc="f577340a" sha1="b297c08cb224658aee6cf8fca09109eb4402bb8e"/>
+			</dataarea>
+			<dataarea name="vram" size="32768"/>
+		</part>
+	</software>
+
 	<software name="mysticpi">
 		<description>Mystic Pillars</description>
 		<year>2008</year>
@@ -81812,6 +81972,23 @@ be better to redump them properly. -->
 			</dataarea>
 			<!-- 8k VRAM on cartridge? -->
 			<dataarea name="vram" size="8192">
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="nebsdebs">
+		<description>Nebs 'n Debs (Rev 1)</description>
+		<year>2018</year>
+		<publisher>&lt;unknown&gt;</publisher>
+		<info name="release" value="2018xxxxx"/>
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="nrom"/>
+			<feature name="mirroring" value="vertical"/>
+			<dataarea name="prg" size="32768">
+				<rom name="0.prg" size="32768" crc="e8c3fe4e" sha1="bbb4515629498572a6b4a2bb2eb09d84ce3ac3d3"/>
+			</dataarea>
+			<dataarea name="chr" size="8192">
+				<rom name="0.chr" size="8192" crc="38ec479a" sha1="30f302d1ef736d7f8f2966c016ae9d568f3a76b9"/>
 			</dataarea>
 		</part>
 	</software>
@@ -81941,6 +82118,41 @@ be better to redump them properly. -->
 			</dataarea>
 			<!-- 8k VRAM on cartridge -->
 			<dataarea name="vram" size="8192">
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="novasqrl">
+		<description>Nova the Squirrel (v1.06)</description>
+		<year>2019</year>
+		<publisher>&lt;unknown&gt;</publisher>
+		<info name="release" value="20190430"/>
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="sxrom"/>
+			<feature name="mirroring" value="vertical"/>
+			<dataarea name="prg" size="262144">
+				<rom name="nova the squirrel (world) (v1.06) (aftermarket) (homebrew).prg" size="262144" crc="fb5f3c36" sha1="100ab290cbbe22beacc26d1ca028a5dc60ebe637"/>
+			</dataarea>
+			<dataarea name="vram" size="8192"/>
+			<dataarea name="bwram" size="8192">
+				<rom value="0x00" size="8192" offset="0" loadflag="fill" />
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="novasqra" cloneof="novasqrl">
+		<description>Nova the Squirrel (Alt)</description>
+		<year>2019</year>
+		<publisher>&lt;unknown&gt;</publisher>
+		<info name="release" value="2019xxxx"/>
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="sxrom"/>
+			<dataarea name="prg" size="262144">
+				<rom name="nova the squirrel (world) (alt) (aftermarket) (homebrew).prg" size="262144" crc="b1af38aa" sha1="65cce17b08c52eee2442d983495acf1dbf5ae4f6"/>
+			</dataarea>
+			<dataarea name="vram" size="8192"/>
+			<dataarea name="bwram" size="8192">
+				<rom value="0x00" size="8192" offset="0" loadflag="fill" />
 			</dataarea>
 		</part>
 	</software>
