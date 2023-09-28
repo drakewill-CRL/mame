@@ -81945,6 +81945,36 @@ be better to redump them properly. -->
 		</part>
 	</software>
 
+	<software name="projblue">
+		<description>Project Blue</description>
+		<year>2020</year>
+		<publisher>&lt;unknown&gt;</publisher>
+		<info name="release" value="20200515"/>
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="bnrom"/>
+			<feature name="mirroring" value="vertical"/>
+			<dataarea name="prg" size="524288">
+				<rom name="project blue (world) (aftermarket) (homebrew).prg" size="524288" crc="0c48bade" sha1="99884c3e8cecdb5424c0b67bfc08636f52229135"/>
+			</dataarea>
+			<dataarea name="vram" size="8192"/>
+		</part>
+	</software>
+
+	<software name="projblug" cloneof="projblue">
+		<description>Project Blue (Gender Swap Version)</description>
+		<year>2020</year>
+		<publisher>&lt;unknown&gt;</publisher>
+		<info name="release" value="20200515"/>
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="bnrom"/>
+			<feature name="mirroring" value="vertical"/>
+			<dataarea name="prg" size="524288">
+				<rom name="project blue (world) (gender swap version) (aftermarket) (homebrew).prg" size="524288" crc="e9492df4" sha1="496f16ae3a7a934e2eed8ffb0b341347009f5ef8"/>
+			</dataarea>
+			<dataarea name="vram" size="8192"/>
+		</part>
+	</software>
+
 	<software name="questfor">
 		<description>Quest Forge - By Order of Kings</description>
 		<year>2015</year>
