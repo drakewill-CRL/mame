@@ -82030,6 +82030,22 @@ be better to redump them properly. -->
 		</part>
 	</software>
 
+	<software name="splatood" cloneof="none" supported="partial">
+		<description>SplatooD (v1.0.6)</description>
+		<year>2015</year>
+		<publisher>&lt;unknown&gt;</publisher>
+		<info name="release" value="20151125"/>
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="nrom"/>
+			<dataarea name="prg" size="32768">
+				<rom name="0.prg" size="32768" crc="2b943164" sha1="d5d5f8941b78f67e22e7ba0fbc39593dda89809d"/>
+			</dataarea>
+			<dataarea name="chr" size="8192">
+				<rom name="0.chr" size="8192" crc="65b0ee75" sha1="dc4ca0febfd775c05b11a16859eb68951fe08e80"/>
+			</dataarea>
+		</part>
+	</software>
+
 	<software name="starvers">
 		<description>Star Versus</description>
 		<year>2015</year>
