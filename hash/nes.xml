@@ -81849,6 +81849,51 @@ be better to redump them properly. -->
 		</part>
 	</software>
 
+	<software name="nesertg">
+		<description>NESert Golfing</description>
+		<year>2019</year>
+		<publisher>&lt;unknown&gt;</publisher>
+		<info name="release" value="20190131"/>
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="nrom"/>
+			<feature name="mirroring" value="vertical"/>
+			<dataarea name="prg" size="32768">
+				<rom name="nesert golfing (world) (aftermarket) (homebrew).prg" size="32768" crc="2eaadd18" sha1="c221ad67730e84728beb11ae841d6d7498066c19"/>
+			</dataarea>
+			<dataarea name="vram" size="8192"/>
+		</part>
+	</software>
+
+	<software name="nesertga" cloneof="nesertg">
+		<description>NESert Golfing (Rev A)</description>
+		<year>2019</year>
+		<publisher>&lt;unknown&gt;</publisher>
+		<info name="release" value="20190131"/>
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="uxrom"/>
+			<feature name="mirroring" value="vertical"/>
+			<dataarea name="prg" size="32768">
+				<rom name="nesert golfing (world) (rev a) (aftermarket) (homebrew).prg" size="32768" crc="1629e5e2" sha1="9a77fbc6176099cbd86aa14141b340faba793f63"/>
+			</dataarea>
+			<dataarea name="vram" size="8192"/>
+		</part>
+	</software>
+
+	<software name="nesertgt" cloneof="nesertg">
+		<description>NESert Golfing (Tournament Edition)</description>
+		<year>2019</year>
+		<publisher>&lt;unknown&gt;</publisher>
+		<info name="release" value="20191006"/>
+		<part name="cart" interface="nes_cart">
+			<feature name="slot" value="nrom"/>
+			<feature name="mirroring" value="vertical"/>
+			<dataarea name="prg" size="32768">
+				<rom name="nesert golfing (world) (tournament edition) (aftermarket) (homebrew).prg" size="32768" crc="3ec19565" sha1="24c243f3edd8f1ba9c7f55ef45a1b4110e68ba1a"/>
+			</dataarea>
+			<dataarea name="vram" size="8192"/>
+		</part>
+	</software>
+
 	<software name="nightbas">
 		<description>Nighttime Bastards</description>
 		<year>2014</year>
